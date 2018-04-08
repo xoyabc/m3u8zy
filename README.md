@@ -7,3 +7,4 @@
     www.zy131.com
     caiji.000o.cc
     www.yongjiuzy.cc
+    www.caijizy.com
