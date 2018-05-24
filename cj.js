@@ -1,103 +1,28 @@
 document.writeln("<a href=\"./?m=collect-break\"><font color=\"#15696B\" style=\"font-size:16px;\">继续上次断点采集</font></a>");
-document.writeln("<font color=red>VIP授权版本，服务截止：(2025-12-31) 到期</font>，<a target=\"_blank\" href=\"http://wpa.qq.com/msgrd?v=3&uin=1099970453&site=qq&menu=yes\" style=\"color:blue\">点我续费</a>");
-document.writeln("<script language=\"javascript\" type=\"text/javascript\" src=\"http:\/\/www.zidongcaiji.com\/caiji\/c.js\"></script>");
+//document.writeln("<script language=\"javascript\" type=\"text/javascript\" src=\"http://cj.tv6.com/cj/gonggao.js\"></script>");
 var d = new Date();
 var h = d.getHours();
 var list = {
-	'zz22x': {
-		'des': '『6080新影视整理』资源站，可批量采集，包含VIP资源采集，更新比较快，可作为主要资源站采集！【<font color="#FF0000">避免图片失效，请同步到本地，失效不负责！</font>】',
-		'rows': [
-		
-			{
-			'status':'ok',
-			'name':'【优酷视频资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，比较稳定，可批量采集）',
-			'apiurl':'http://api.88gc.net/inc/zyouku.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'youku',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'【腾讯视频资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，可批量采集）解析不稳定，不支持付费视频和用券视频解析',
-			'apiurl':'http://api.88gc.net/inc/zqq.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'qq',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'【搜狐视频资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，比较稳定，可批量采集）',
-			'apiurl':'http://api.88gc.net/inc/zsohu.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'sohu',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'【爱奇艺资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，比较稳定，可批量采集）不支持付费视频和用券视频解析',
-			'apiurl':'http://api.88gc.net/inc/zqiyi.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'qiyi',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'【乐视tv资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，比较稳定，可批量采集）',
-			'apiurl':'http://api.88gc.net/inc/zletv.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'letv',
-			'ct':''
-			},
-
-			{
-			'status':'ok',
-			'name':'【芒果TV资源】<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>（每日更新，比较稳定，可批量采集）',
-			'apiurl':'http://api.88gc.net/inc/zmgtv.php',
-			'flag':'ting34',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'mgtv',
-			'ct':''
-			}
-
-        ]
-	},		
-
-	'kkzy': {
-		'des': '『备用资源②站』这里是资源2站，和上方不同！如果遇到资源失效无法采集，可以采集这里的资源',
+	'tv6': {
+		'des': '『赏英才采集平台』vip资源、URL全网资源【推荐使用】',
 		'rows': [{
 			'status': 'ok3',
-			'name': '芒果资源【www.mgtv.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apimgtv.php',
-			'flag': 'kkzy',
+			'name': '全站资源【cj.tv6.com】一键采集资源 <img src="http://cj.tv6.com/cj/1-140105140054.gif"/>',
+			'apiurl': 'http://cj.tv6.com/mox/inc/api.php',
+			'flag': 'tv6',
+			'hour1': '24',
+			'hour2': '48',
+			'hour3': '73',
+			'hour4': '98',
+			'xt': '1',
+			'group': 'api',
+			'ct': ''
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '芒果资源【www.mgtv.com】一键采集资源 <img src="http://cj.tv6.com/cj/1-140105140054.gif"/>',
+			'apiurl': 'http://cj.tv6.com/mox/inc/mgtv.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -105,11 +30,12 @@ var list = {
 			'xt': '1',
 			'group': 'mgtv',
 			'ct': ''
-		}, {
+'cjurl':''
+		},{
 			'status': 'ok3',
-			'name': '优酷资源【www.youku.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apiyouku.php',
-			'flag': 'kkzy',
+			'name': '优酷资源【www.youku.com】一键采集资源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
+			'apiurl': 'http://cj.tv6.com/mox/inc/youku.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -117,147 +43,12 @@ var list = {
 			'xt': '1',
 			'group': 'youku',
 			'ct': ''
-		}, {
-			'status': 'ok3',
-			'name': '乐视资源【www.letv.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apiletv.php',
-			'flag': 'kkzy',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'letv',
-			'ct': ''
-		}, {
-			'status': 'ok3',
-			'name': '搜狐资源【www.sohu.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apisohu.php',
-			'flag': 'kkzy',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'sohu',
-			'ct': ''
-		}, {
-			'status': 'ok3',
-			'name': '奇艺资源【www.iqiyi.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apiqiyi.php',
-			'flag': 'kkzy',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'qiyi',
-			'ct': ''
-		}, {
-			'status': 'ok3',
-			'name': '腾讯资源【www.qq.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif">',
-			'apiurl': 'http://www.kukuzy.com/inc/apiqq.php',
-			'flag': 'kkzy',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'qq',
-			'ct': ''
-		}
-      ]
-	},
-
-
-
-	'qiang':{
-		'des': '『备用资源③站』这里是资源3站，和上方不同！如果遇到资源失效无法采集，可以采集这里的资源',
-		'rows':[
-			{
-			'status':'ok',
-			'name':'优酷>>>>推荐采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
-			'apiurl':'http://cj.tv6.com/mox/inc/youku.php',
-			'flag':'tv6_com',
-			'xt':'1',
-			'group':'',
-			'ct':'',
-			'cjurl':''
-			},
-			{
-			'status':'ok',
-			'name':'芒果>>>>推荐采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
-			'apiurl':'http://cj.tv6.com/mox/inc/mgtv.php',
-			'flag':'tv6_com',
-			'xt':'1',
-			'group':'',
-			'ct':'',
-			'cjurl':''
-			},
-			{
-			'status':'ok',
-			'name':'爱奇艺>>>>推荐采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
-			'apiurl':'http://cj.tv6.com/mox/inc/qiyi.php',
-			'flag':'tv6_com',
-			'xt':'1',
-			'group':'',
-			'ct':'',
-			'cjurl':''
-			},
-			{
-			'status':'ok',
-			'name':'腾讯>>>>推荐采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
-			'apiurl':'http://cj.tv6.com/mox/inc/qq.php',
-			'flag':'tv6_com',
-			'xt':'1',
-			'group':'',
-			'ct':'',
-			'cjurl':''
-			},
-			{
-			'status':'ok',
-			'name':'搜狐>>>>推荐采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
-			'apiurl':'http://cj.tv6.com/mox/inc/sohu.php',
-			'flag':'tv6_com',
-			'xt':'1',
-			'group':'',
-			'ct':'',
-			'cjurl':''
-			}
-		]
-	},	
-
-	'ckflv': {
-		'des': '『备用资源站④』没有更新或者无法采集请换其他资源站【<font color="#FF0000">避免图片失效，请同步到本地，失效不负责！</font>】',
-		'rows': [{
-			'status': 'ok3',
-			'name': '芒果资源【www.mgtv.com】一键采集资源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/mgtv.php',
-			'flag': 'ckflv',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'mgtv',
-			'ct': ''
-		}, {
-			'status': 'ok3',
-			'name': '优酷资源【www.youku.com】一键采集资源<img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/youku.php',
-			'flag': 'ckflv',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
-			'xt': '1',
-			'group': 'youku',
-			'ct': ''
-		}, {
+'cjurl':''
+		},{
 			'status': 'ok3',
 			'name': '乐视资源【www.letv.com】一键采集资源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/letv.php',
-			'flag': 'ckflv',
+			'apiurl': 'http://cj.tv6.com/mox/inc/letv.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -265,11 +56,12 @@ var list = {
 			'xt': '1',
 			'group': 'letv',
 			'ct': ''
+'cjurl':''
 		}, {
 			'status': 'ok3',
 			'name': '搜狐资源【www.sohu.com】一键采集资源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/sohu.php',
-			'flag': 'ckflv',
+			'apiurl': 'http://cj.tv6.com/mox/inc/sohu.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -277,11 +69,12 @@ var list = {
 			'xt': '1',
 			'group': 'sohu',
 			'ct': ''
+'cjurl':''
 		}, {
 			'status': 'ok3',
-			'name': '奇艺资源【www.iqiyi.com】一键采集源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/qiyi.php',
-			'flag': 'ckflv',
+			'name': '奇艺资源【www.iqiyi.com】一键采集资源',
+			'apiurl': 'http://cj.tv6.com/mox/inc/qiyi.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -289,11 +82,12 @@ var list = {
 			'xt': '1',
 			'group': 'qiyi',
 			'ct': ''
+'cjurl':''
 		}, {
 			'status': 'ok3',
-			'name': '腾讯资源【www.qq.com】一键采集资源 <img src="http://www.51xuediannao.com/uploads/allimg/140105/1-140105140054.gif"/>',
-			'apiurl': 'http://zy.vivcms.com/inc/qq.php',
-			'flag': 'ckflv',
+			'name': '腾讯资源【www.qq.com】一键采集资源',
+			'apiurl': 'http://cj.tv6.com/mox/inc/qq.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
@@ -301,332 +95,313 @@ var list = {
 			'xt': '1',
 			'group': 'qq',
 			'ct': ''
-		}
-       ]
-	},
-	
-     'huihe': {
-		'des': '『6080新影视整理』混合资源站，不建议批量采集，可以作为查询资源使用',
-		'rows': [
-			{
-			'status':'ok',
-			'name':'【优酷、腾讯、爱奇艺、芒果TV、搜狐、乐视】混合采集，不要批量采集',
-			'apiurl':'http://caiji.000o.cc/inc/qq_api.php',
-			'flag':'jijizycom_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-           {
-	'status': 'ok',
-	'name': '【27pan资源】采集接口《www.27pan.com》',
-	'apiurl': 'http://cj.tv6.com/mox/inc/27pan.php',
-	'flag': 'tv6_com',
-	'xt': '1',
-	'group': '',
-	'ct': '',
-	'cjurl': ''
-          },			
-		   {
-			'status':'ok',
-			'name':'【播放来源：yzm】采集前请先添加播放器，不要批量采集，自己检测是否能正常播放！',
-			'apiurl':'http://www.czhiyun.com/inc/api.asp',
-			'flag':'czhiyun',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},			
-			
-		   {
-			'status':'ok',
-			'name':'【播放来源：jsyun,jsm3u8】采集前请先添加播放器，不要批量采集，自己检测是否能正常播放！',
-			'apiurl':'http://www.caijizy.com/inc/api.php',
-			'flag':'caijizy',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},			
-		   {
-			'status':'ok',
-			'name':'【播放来源：131zy,131m3u8】采集前请先添加播放器，不要批量采集，自己检测是否能正常播放！',
-			'apiurl':'http://www.131zy.com/inc/api.php',
-			'flag':'131zy',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},							
-		   {
-			'status':'ok',
-			'name':'【播放来源：1905ziyuan】不要批量采集。包含1000多条热门资源，采集前请先整合播放器',
-			'apiurl':'http://www.1905ziyuan.com/inc/1905ziyuan.php',
-			'flag':'llziyuan',
-			'xt':'1',
-			'group':'1',
-			'ct':''
-			},	
-		   {
-			'status':'ok',
-			'name':'【播放来源：yjyun,yjm3u8】不要批量采集。包含2000多条热门资源，采集前请先整合播放器',
-			'apiurl':'http://www.yongjiuzy.com/inc/api.php',
-			'flag':'33uuzy',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			}
-			
-					
-		
-		]
-	},
-
-	'kuyun':{
-		'des': '『6080新影视整理』云转码切片视频，无需解析，无需安装播放器！自测资源是否正常播放，可能移动端播放有广告！',
-		'rows':[				
-        {
-			'status': 'ok',
-			'name': '【kuyun】资源站①【无需解析，但是播放加载可能很缓慢！】<a href="http://t.cn/RNhuewU" target="_blank" style="font-size: 12px;font-weight: bold;color: #FF0000;text-decoration: none;">《首次采集必看，不然无法播放！》</a>',
-			'apiurl': 'http://api.haozy.cc/inc/api.php',
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': 'PPTV资源【www.pptv.com】一键采集资源',
+			'apiurl': 'http://cj.tv6.com/mox/inc/pptv.php',
+			'flag': 'tv6',
+			'hour1': '24',
+			'hour2': '48',
+			'hour3': '73',
+			'hour4': '98',
+			'xt': '1',
+			'group': 'pptv',
+			'ct': ''
+'cjurl':''
+		}, {	
+			'status': 'ok3',
+			'name': '7k伦理资源（无水印秒播M3U8）',
+			'apiurl': 'http://www.7kzy.com/inc/api.php',
+			'flag': '7kzy',
+			'xt': '1',
+			'group': '',
+			'ct': ''
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '01资源网(m3u8)【无需安装插件也可以播放（ykm3u8）超多抢版资源】',
+			'apiurl': 'http://www.youkuzy.com/inc/ykm3u8.php',
+			'flag': '91zycc_',
+			'xt': '1',
+			'group': '',
+			'ct': ''
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '酷播资源(m3u8)【无需安装插件也可以播放（kakam3u8）超多抢版资源】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://zy.kakazycj.com/inc/apim3u8.php',
 			'flag': 'haozycc_',
 			'xt': '1',
 			'group': '',
 			'ct': ''
-		}, 
-		{
-			'status': 'ok',
-			'name': '【kuyun】资源站②备用【无需解析，但是播放加载可能很缓慢！】<a href="http://t.cn/RNhuewU" target="_blank" style="font-size: 12px;font-weight: bold;color: #FF0000;text-decoration: none;">《首次采集必看，不然无法播放！》</a>',
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': 'kuyun资源【无需安装插件也可以播放（JS来源kuyun）超多抢版资源】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://www.ziyuanpian.com/inc/api.php',
+			'flag': 'xfyyzycc_',
+			'xt': '1',
+			'group': '',
+			'ct': ''
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '极速资源网【无需安装插件也可以播放（JS来源kuyun）超多抢版资源】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
 			'apiurl': 'http://www.jisudhw.com/inc/api.php',
 			'flag': 'jisudhwcom_',
 			'xt': '1',
 			'group': '',
 			'ct': ''
-		},			
-			{
-			'status':'ok',
-			'name':'【kuyun在线资源】，备用【无需解析，但是播放加载可能很缓慢！】<a href="http://t.cn/RNhuewU" target="_blank" style="font-size: 12px;font-weight: bold;color: #FF0000;text-decoration: none;">《首次采集必看，不然无法播放！》</a>',
-			'apiurl':'http://api.iokzy.com/inc/apikuyun.php',
-			'flag':'okzyzy',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},		
-           {
-			'status':'ok',
-			'name':'【酷云在线资源】请自行检测资源是否有效，避免重复资源采集！',
-			'apiurl':'http://www.ziyuanpian.com/inc/kuyun.php',
-			'flag':'ckflvzy',
-			'xt':'1',
-			'group':'1',
-			'ct':''
-			},	
-			{
-			'status':'ok',
-			'name':'【OK云全站资源】请勿批量采集，谨慎采集避免重复。',
-			'apiurl':'http://api.iokzy.com/inc/api1.php',
-			'flag':'okzyzy',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'',
-			'ct':''
-		     },
-			 {
-			'status':'ok',
-			'name':'【OK在线云-M3U8资源】请先测试是否能正常播放，然后再决定是否批量采集！',
-			'apiurl':'http://api.iokzy.com/inc/apickm3u8.php',
-			'flag':'okzyzy',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'',
-			'ct':''
-		   },			
-						
-			 {
-			'status': 'ok',
-			'name': '【kuyun】资源站，备用【无需解析，但是播放加载可能很缓慢！】<a href="http://t.cn/RNhuewU" target="_blank" style="font-size: 12px;font-weight: bold;color: #FF0000;text-decoration: none;">《首次采集必看，不然无法播放！》</a>',
-			'apiurl': 'http://www.jisudhw.com/inc/api.php',
-			'flag': 'fensizycom_',
+'cjurl':''
+                 }, {
+			'status': 'ok3',
+			'name': '八千客资源【无需安装插件也可以播放（JS来源link）超多抢版资源】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://www.go1977.com/inc/api.php',
+			'flag': 'go1997',
+			'xt': '1',
+			'group': 'api',
+			'ct': ''
+'cjurl':''
+                 }, {
+			'status': 'ok3',
+			'name': '极速云资源【无需安装插件也可以播放（JS来源jsyun）更新快抢版资源多】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://www.caijizy.com/inc/api.php',
+			'flag': 'caijizy',
 			'xt': '1',
 			'group': '',
 			'ct': ''
-		},
-          {
-			'status':'ok',
-			'name':'【kuyun在线】，【无需解析，但是播放加载可能很缓慢！】<a href="http://t.cn/RNhuewU" target="_blank" style="font-size: 12px;font-weight: bold;color: #FF0000;text-decoration: none;">《首次采集必看，不然无法播放！》</a>',
-			'apiurl':'http://www.ziyuanpian.com/inc/kuyun.php',
-			'flag':'ckflvzy',
-			'xt':'1',
-			'group':'1',
-			'ct':''
-			}
-        ]
-	},	
-	'news':{
-		'des': '『6080新影视整理』备用选择资源站，此处分类的资源比较混合，不建议批量采集！有些资源可能失效无法播放，请自行选择！【<font color="#FF0000">避免图片失效，请同步到本地，失效不负责！</font> 】',
-		'rows':[
-           {
-			'status': 'ok',
-			'name': '资源片混合资源（标识：kkyun）',
-			'apiurl': 'http://www.ziyuanpian.com/inc/api.php',
-			'flag': '1',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '精品电影资源【无需安装插件也可以播放（JS来源jpm3u8)】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://www.jingpinzy.com/inc/api.php',
+			'flag': 'jingpinzy',
 			'xt': '1',
 			'group': '',
 			'ct': ''
-		     },
-
-			{
-			'status':'ok',
-			'name':'ck混合资源（标识：qq、youku、qiyi等）',
-			'apiurl':'http://zy.vivcms.com/inc/api.php',
-			'flag':'xiaohuihui_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-
-		    {
-			'status':'ok',
-			'name':'百域阁资源网（标识：qq、youku、qiyi等）',
-			'apiurl':'http://baiyug.cn/inc/api.php',
-			'flag':'byg_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'强强资源网（标识：qq、youku、qiyi等）',
-			'apiurl':'http://caiji.000o.cc/inc/api.php',
-			'flag':'jijizycom_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-
-			{
-			'status':'ok',
-			'name':'98api（标识：jsyun、jsm3u8）',
-			'apiurl':'http://c.98api.com/inc/api.php',
-			'flag':'jijizycom_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-			{
-			'status':'ok',
-			'name':'1717yun（标识：qq、youku、qiyi等）',
-			'apiurl':'http://zy.1717yun.com/inc/api.php',
-			'flag':'940_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-
-			{
-			'status':'ok',
-			'name':'石头资源站（标识：m3u8、styun）',
-			'apiurl':'http://cj.071811.cc/inc/api.php',
-			'flag':'shitcaiji_',
-			'xt':'1',
-			'group':'',
-			'ct':''
-			},
-
-          {
-            'status': 'ok',
-            'name': '恋恋影视资源一站（标识：2mm）',
-            'apiurl': 'http://zy.vivcms.com/inc/2mm.php',
-            'flag': 'ck4_',
-            'hour1': '24',
-            'hour2': '48',
-            'hour3': '73',
-            'hour4': '98',
-            'xt': '1',
-            'group': '',
-            'ct': ''
-            },
-           {
-			'status': 'ok',
-			'name': '恋恋影视二站（标识：2mm）',
-			'apiurl': 'http://zy.wlzhan.com/inc/apimm.php',
-			'flag': 'suduniuvip',
-			'hour1': '24',
-			'hour2': '48',
-			'hour3': '73',
-			'hour4': '98',
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': 'ok资源站【无需安装插件也可以播放（JS来源ckm3u8)】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://api.iokzy.com/inc/apickm3u8.php',
+			'flag': 'okzyzy',
 			'xt': '1',
 			'group': '',
 			'ct': ''
-		},
-			
-			{
-			'status':'ok',
-			'name':'m3u8资源（标识:m3u8）含伦理资源【速度一般】',
-			'apiurl':'http://zy.19fa.com/inc/apim3u8.php',
-			'flag':'19fa',
+'cjurl':''
+		},{ 
+			'status': 'ok3', 
+			'name': '（百域阁-全能实时更新资源）主服务器-采集接口', 
+			'apiurl': 'http://baiyug.cn/inc/api.php', 
+			'flag': 
+			'utvs_', 
+			'hour1': '24', 
+			'hour2': '48', 
+			'hour3': '73', 
+			'hour4': '98', 
+			'xt': '1', 
+			'group': '', 
+			'ct': '' 
+'cjurl':''
+		},{ 
+			'status': 'ok3',
+			'name': '（百域阁-全能实时更新资源）备用服务器-采集接口', 
+			'apiurl': 'http://wap.baiyug.cn/inc/api.php', 
+			'flag': 'utvs_', 
+			'hour1': '24', 
+			'hour2': '48', 
+			'hour3': '73', 
+			'hour4': '98', 
+			'xt': '1', 
+			'group': '', 
+			'ct': '' 
+'cjurl':''
+		}, {
+			'status':'ok3',
+                  'name':'cj.jiexi.cx 解析资源站-最全的影视资源-365日稳定更新',//  guale
+                  'apiurl':'http://cj.jiexi.cx/inc/api.php',
+                  'flag':'cj_jiexi_cx_',
+                  'xt':'1',
+                  'group':'',
+                  'ct':''
+'cjurl':''
+		}, {
+			'status': 'ok3',
+			'name': '33uu资源站【无需安装插件也可以播放（JS来源33uuck)】<img src="http://vip.yiyagi.cn/vip/images/1-140105140054.gif"/>',
+			'apiurl': 'http://www.33uudy.com/inc/33uuck.php',
+			'flag': 'okzyzy',
+			'xt': '1',
+			'group': '',
+			'ct': ''
+		}, {
+			'status':'ok3',
+                  'name': '好资源【无需安装插件也可以播放（JS来源kuyun）超多抢版资源】<img src="http://www.qin52.com/vip/images/1-140105140054.gif"/>',
+                  'apiurl': 'http://api.haozy.cc/inc/api.php',  //guale
+                  'flag': 'haozycc_',
+                  'xt': '1',
+                  'group': '',
+                  'ct': ''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'秒拍',
+			'apiurl':'http://zyurl.nepian.com/miaopai/inc/mac_free.php',
+			'flag':'roodg',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'微录客',
+			'apiurl':'http://zyurl.nepian.com/vlook/inc/mac_free.php',
+			'flag':'rooeog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'b站',
+			'apiurl':'http://1zy.wlzhan.com/inc/apibilibili.php',
+			'flag':'roo6og',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'2MM',
+			'apiurl':'http://zy.vivcms.com/inc/2mm.php',
+			'flag':'r9ooog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'MOVS资源',
+			'apiurl':'http://tv.dgua.xyz/inc/api.php',
+			'flag':'ro1oog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'ys帝国资源',
+			'apiurl':'http://www.yszydg.com/inc/kuyun.php',
+			'flag':'ro2oog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'强强资源',
+			'apiurl':'http://caiji.000o.cc/inc/qq_api.php',
+			'flag':'jqqcm_',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+
+		}, {
+			'status':'ok3',
+			'name':'全网ys资源',
+			'apiurl':'http://www.daquk.com/inc/api.php',
+			'flag':'j9com_',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+
+		}, {
+			'status':'ok3',
+			'name':'zuidazy资源',
+			'apiurl':'http://www.zuidazy.com/inc/apidown.php',
+			'flag':'jycom_',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+
+
+		}, {
+			'status':'ok3',
+			'name':'速度牛混合资源',
+			'apiurl':'http://zy.wlzhan.com/inc/api.php',
+			'flag':'rioog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+
+		}, {
+			'status':'ok3',
+			'name':'OBest整站资源',
+			'apiurl':'http://zy.obest.net/inc/api.php',
+			'flag':'ryoog',
+			'xt':'1',
+			'group':'',
+			'ct':''
+'cjurl':''
+		}, {
+			'status':'ok3',
+			'name':'131资源',
+			'apiurl':'http://cj.zy131.com/inc/api.php',
+			'flag':'fyucom_',
 			'xt':'1',
 			'group':'2',
-			'ct':''
-			}
-		]
-	},	
-
-   'sese': {
-		'des': '『6080新影视整理资源』（m3u8格式资源）AV资源、成人内容资源【谨慎采集！】<br/>&nbsp;&nbsp;&nbsp;【<font color="#FF0000">如果点进去没有数据，就是资源站失效了！避免图片失效，请同步到本地，失效不负责！</font>】',
-		'rows': [
-			{
-			'status':'ok3',
-			'name':'【m3u8色情资源】包含6000多条数据，采集后自行检测是否能正常播放，未测试前，请勿批量采集！图片请下载到本地，失效不负责！',
-			'apiurl':'http://www.99caiji.com/api/mac.php',
-			'flag':'daidai',
-			'hour1':'24',
-			'hour2':'48',
-			'hour3':'73',
-			'hour4':'98',
-			'xt':'1',
-			'group':'',
-			'ct':''
-            },	
-          {
-			'status': 'ok3',
-			'name': '【来源：ckplayer】4000多条色情m3u8直链资源，请添加相应的播放后再采集！',
-			'apiurl': 'http://fu2d.me.gakui.top/inc/mac.php',
-			'flag': 'npzy',
+			'ct':''	
+'cjurl':''
+		}
+                ]
+	},'ykyun': {
+		'des': '『赏英才资源采集』私有云资源【稳定快速无水印】',
+		'rows': [{
+			'status': 'ok1',
+			//'name': '206云端①（院线电影，去水印）【推荐使用】',//<i><s>伦理pan资源②（标识:ykyun）停止更新</s></i>
+			'name': '206云端①（院线电影，去水印）【推荐使用】<img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
+			'apiurl': 'http://cj.tv6.com/mox/inc/27pan.php',
+			'flag': 'tv6',
 			'hour1': '24',
 			'hour2': '48',
 			'hour3': '73',
 			'hour4': '98',
 			'xt': '1',
-			'group': 'all',
+			'group': '27pan',
 			'ct': ''
+'cjurl':''
+			},{
+			'status': 'ok',
+			'name': '206云端③（院线电影，去水印）【筹建中】 <img src="http://www.51xuediannao.com/uploads/allimg/140104/1-140104201946.gif"/>',
+			'apiurl': 'http://cj.tv6.com/inc/2062.php',
+			'flag': '2062',
+			'hour1': '24',
+			'hour2': '48',
+			'hour3': '73',
+			'hour4': '98',
+			'xt': '1',
+			'group': '2062',
+			'ct': ''
+'cjurl':''
 		}
-		
-	]
-		}	
-	
+                ]
+	}
 	
 };
 
 document.write("<style type='text/css'>body{font-family: 微软雅黑;}a{text-decoration: none;color: #0000FF;}.table {margin-bottom:5px;font-size:13px;text-align:left;border-collapse: collapse; }.table td {padding-left:10px;padding-right:10px;border:1px dotted #cedebd; }.table .td {height:30px;padding-left:0px;} .table tr {height:30px;line-height:30px;}.table tr .left{width:180px;text-align:right;padding-right:10px;color:#666;} .table_title {height:28px!important;line-height:28px!important;background:#f3ffec;font-weight:600;color:#333;}.uok2{width:30px;height:15px;color:white;background:#39C07B;display:inline-block;}.uok1{width:30px;height:15px;color:white;background:#FE7200;display:inline-block;} .uok3{width:30px;height:15px;color:white;background:#9253DF;display:inline-block;}.uok{width:30px;height:15px;color:white;background-color:#5FAE2F;display:-moz-inline-box;display:inline-block;}.uerr{width:30px;height:15px;color:white;background-color:red;display:-moz-inline-box;display:inline-block;}.red{color:red;}</style>");
+
 
 var html='',url='',url8x='',url7x='',ver='7x',url1='',url2='',url3='',url4='',urlone='',name1='';
 url8x='index.php?m=collect-{ac}-ac2-{ac2}-hour-{hour}-xt-{xt}-ct-{ct}-group-{group}-flag-{flag}-apiurl-{apiurl}';
 ver='8x';url=url8x;
 $.each(list, function(k1, v1) {
 	html += "<table width='98%' class='table'><tbody>";
-        html += "<tr class='table_title'><td colspan='7' class='td'><span style='float:left'>&nbsp;" + v1.des + "</span><span style='float:right'>&nbsp;</span></td></tr>";
+        html += "<tr class='table_title'><td colspan='7' class='td'><span style='float:left'>�" + v1.des + "</span><span style='float:right'>�</span></td></tr>";
 
 $.each(v1.rows, function(k2, v2){
 		urlone = url.replace('{xt}',v2.xt).replace('{ct}',v2.ct).replace('{group}',v2.group).replace('{flag}',v2.flag).replace('{apiurl}',v2.apiurl);
@@ -648,4 +423,9 @@ $.each(v1.rows, function(k2, v2){
 	});
 	html+='</tbody></table>';
 });
+
+
 document.write(html);
+//document.write('<table width="98%" class="table"><tbody><tr class="table_title"><td colspan="7" class="td">↓↓↓播放器资源库，欢迎提供接口整合【由第三方平台提供更新,自行选择采集与解析】</td></tr></tbody></table>');
+//document.write('<!--/加入官方api接口--><script src="//www.maccms.com/union/xmlutf_2014.js" charset="utf-8"></script>');
+//document.write ('<script src="https://s19.cnzz.com/z_stat.php?id=1271675633&web_id=1271675633" language="JavaScript"></script>');
