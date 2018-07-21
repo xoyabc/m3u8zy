@@ -1,11 +1,14 @@
 
 | 站点名字 | 网址 | 备注 |
 | :---: | :---: | :---: |
+| 129zy | http://www.129zy.com/ | 速度快资源全 |
+| 酷云资源kkyun | http://www.kuyun9.com/ | 速度快资源全 |
 | 快快资源 | http://www.kkzy.cc/ | 速度快 |
 | 豆瓣资源 | http://www.doubanzy.com/ | 速度快 |
 | 最快资源 | http://zuikzy.com/ | 速度快，国内加速 |
 | 快快资源 | http://www.kkzy.cc/ | 速度快 |
 | 强强资源 | http://caiji.000o.cc/ | 在线聚合类 |
+
 
 
 27盘资源采集站：http://cj.tv6.com
