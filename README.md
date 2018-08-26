@@ -12,7 +12,7 @@
 
 
 
-27盘资源采集站：http://cj.tv6.com
+27盘资源采集站：http://cj2.tv6.com
 
 最大资源采集站：http://www.zuidazy.com
 
