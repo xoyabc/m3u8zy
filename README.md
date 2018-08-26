@@ -3,7 +3,7 @@
 | :---: | :---: | :---: |
 | 129zy | http://www.129zy.com/ | 速度快资源全 |
 | 酷云资源kkyun | http://www.kuyun9.com/ | 速度快资源全 |
-| 快快资源 | http://www.kkzy.cc/ | 速度快(已挂 :smile) |
+| 快快资源 | http://www.kkzy.cc/ | 速度快(已挂) |
 | 豆瓣资源 | http://www.doubanzy.com/ | 速度快 |
 | 最快资源 | http://zuikzy.com/ | 速度快，国内加速 |
 | 156资源 | http://www.156zy.com/ | 速度快 |
@@ -34,7 +34,7 @@ CKFly资源采集站：http://zy.vivcms.com
 
 33UU资源采集站：http://www.33uudy.com
 
-几千客资源采集站：http://www.go1977.com
+八千客资源采集站：http://www.go1977.com
 
 91资源采集站：http://www.91zy.cc
 
