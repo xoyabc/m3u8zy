@@ -3,11 +3,12 @@
 | :---: | :---: | :---: |
 | 129zy | http://www.129zy.com/ | 速度快资源全 |
 | 酷云资源kkyun | http://www.kuyun9.com/ | 速度快资源全 |
-| 快快资源 | http://www.kkzy.cc/ | 速度快 |
+| 快快资源 | http://www.kkzy.cc/ | 速度快(已挂 :smile) |
 | 豆瓣资源 | http://www.doubanzy.com/ | 速度快 |
 | 最快资源 | http://zuikzy.com/ | 速度快，国内加速 |
-| 快快资源 | http://www.kkzy.cc/ | 速度快 |
+| 156资源 | http://www.156zy.com/ | 速度快 |
 | 强强资源 | http://caiji.000o.cc/ | 在线聚合类 |
+
 
 
 
